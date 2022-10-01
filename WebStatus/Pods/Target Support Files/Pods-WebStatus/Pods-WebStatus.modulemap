@@ -1,0 +1,6 @@
+framework module Pods_WebStatus {
+  umbrella header "Pods-WebStatus-umbrella.h"
+
+  export *
+  module * { export * }
+}
