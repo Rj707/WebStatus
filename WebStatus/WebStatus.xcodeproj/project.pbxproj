@@ -13,6 +13,7 @@
 		056477C228E83A9C001A8127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056477C028E83A9C001A8127 /* Main.storyboard */; };
 		056477C428E83A9E001A8127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056477C328E83A9E001A8127 /* Assets.xcassets */; };
 		056477C728E83A9E001A8127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056477C528E83A9E001A8127 /* LaunchScreen.storyboard */; };
+		05E937CA28E83C3200CE8101 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05E937C928E83C3200CE8101 /* GoogleService-Info.plist */; };
 		1B827BC9E49DD968E511CEA7 /* Pods_WebStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AF333C8BF057C157F1E815 /* Pods_WebStatus.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		056477C328E83A9E001A8127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		056477C628E83A9E001A8127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		056477C828E83A9E001A8127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E937C928E83C3200CE8101 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		77328B89E9220F69ADD267BF /* Pods-WebStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebStatus.release.xcconfig"; path = "Target Support Files/Pods-WebStatus/Pods-WebStatus.release.xcconfig"; sourceTree = "<group>"; };
 		8664FE62FFAF8F2891BC8CE9 /* Pods-WebStatus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebStatus.debug.xcconfig"; path = "Target Support Files/Pods-WebStatus/Pods-WebStatus.debug.xcconfig"; sourceTree = "<group>"; };
 		93AF333C8BF057C157F1E815 /* Pods_WebStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 		056477B928E83A9C001A8127 /* WebStatus */ = {
 			isa = PBXGroup;
 			children = (
+				05E937C828E83C1D00CE8101 /* Resources */,
 				056477BA28E83A9C001A8127 /* AppDelegate.swift */,
 				056477BC28E83A9C001A8127 /* SceneDelegate.swift */,
 				056477BE28E83A9C001A8127 /* ViewController.swift */,
@@ -74,13 +77,20 @@
 			path = WebStatus;
 			sourceTree = "<group>";
 		};
+		05E937C828E83C1D00CE8101 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05E937C928E83C3200CE8101 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		14E9B99D9A39F20600C08C45 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				8664FE62FFAF8F2891BC8CE9 /* Pods-WebStatus.debug.xcconfig */,
 				77328B89E9220F69ADD267BF /* Pods-WebStatus.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				056477C728E83A9E001A8127 /* LaunchScreen.storyboard in Resources */,
+				05E937CA28E83C3200CE8101 /* GoogleService-Info.plist in Resources */,
 				056477C428E83A9E001A8127 /* Assets.xcassets in Resources */,
 				056477C228E83A9C001A8127 /* Main.storyboard in Resources */,
 			);
